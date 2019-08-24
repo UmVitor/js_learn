@@ -26,7 +26,10 @@ Math.log(512)/Math.LN2 // Logaritmo de base 2 de 512
 Math.exp(3) // Math.E ao cubo
 
 //A aritmetica em JS nao gera erros em casos de estouro, estouro negativo ou divisao por zero. Quando o resultado de uma operacao numerica eh maior do que o numero representavel (estouro), o resultado eh um valor infinito especial, que JS inidica como Infinity. Da mesma forma, quando um valor negativo se torna maior do que o maior numero negativo representavel, o resultado eh infinito negativo, indicado por -infinity. Os valores infinitos se comportam conforme o esperado: somah-los (and so on) por qualquer coisa resulta em um valor infinito (possivelmente com sinal invertido)
-// Divisao por zero nao eh erro em JS: ela simplismente retorna infinito ou infinito negativo. Contudo, ha uma execucao: zero dividido por zero nao tem um valor bem definido e o resultado dessa operacao eh o valor especial not-a-number NaN. NaN tambem surge se voce tenta dividir infinito por infinito, extrai a raiz quadrada de um numero negativo, ou usa operadores aritmeticos com operandos nao numericos que nao podem ser convertidos em numeros
+// Divisao por zero nao eh erro em JS: ela simplismente retorna infinito ou infinito negativo.
+// Contudo, ha uma execucao: zero dividido por zero nao tem um valor bem definido e o resultado
+//dessa operacao eh o valor especial not-a-number NaN. NaN tambem surge se voce tenta dividir infinito por infinito, extrai a raiz quadrada de um numero negativo, ou usa operadores
+// ritmeticos com operandos nao numericos que nao podem ser convertidos em numeros
 
 
 // No entanto as saidas podem gerar valores nao definidos
