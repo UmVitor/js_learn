@@ -1,8 +1,8 @@
-Os objetos JavaScript são valores compostos: eles são um conjunto de propriedades ou valores no-
+/* Os objetos JavaScript são valores compostos: eles são um conjunto de propriedades ou valores no-
 meados. Ao usarmos a notação . fazemos referência ao valor de uma propriedade. Quando o valor
 de uma propriedade é uma função, a chamamos de método. Para chamar o método m de um objeto
 o , escrevemos o.m() .
-Também vimos que as strings têm propriedades e métodos:
+Também vimos que as strings têm propriedades e métodos: */
 var s = "hello world!"; // Uma string
 var word = s.substring(s.indexOf(" ")+1, s.length); // Usa propriedades da string
 /* Contudo, as strings não são objetos. Então, por que elas têm propriedades? Quando você tenta se
