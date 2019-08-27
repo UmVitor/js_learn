@@ -50,8 +50,9 @@ Number.MIN_VALUE/2 // Estouro negativo: avaliado como 0
 -Number.MIN_VALUE/2 // Zero negativo
 -1/Infinity // Também 0 negativo
 -0
-
-//O valor zero negativo também é um pouco incomum. Ele é comparado como igual (mesmo usando-se o teste restrito de igualdade de JavaScript) ao zero positivo, isto é, os dois valores são quase indistinguíveis, exceto quando usados como divisores:
+ 
+//O valor zero negativo também é um pouco incomum. Ele é comparado como igual (mesmo usando-se o teste restrito de igualdade de JavaScript) 
+//ao zero positivo, isto é, os dois valores são quase indistinguíveis, exceto quando usados como divisores:
 
 var zero = 0; // Zero normal
 var negz = -0; // Zero negativo
