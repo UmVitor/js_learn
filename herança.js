@@ -31,3 +31,10 @@ var c = inherit(unitcircle); // c herda a propriedade r
 c.x = 1; c.y = 1; // c define duas propriedades próprias
 c.r = 2; // c anula sua propriedade herdada
 unitcircle.r; // => 1: o objeto protótipo não é afetado
+
+//Há uma exceção à regra de que uma atribuição de propriedade falha ou cria (ou configura) uma
+//propriedade no objeto original. Se o herda a propriedade x e essa propriedade é uma propriedade de
+//acesso com um método setter (consulte a Seção 6.6), então esse método setter é chamado, em vez
+//de criar uma nova propriedade x em o . Note, entretanto, que o método setter é chamado no objeto
+//o e não no objeto protótipo que define a propriedade; portanto, se o método setter define qualquer
+//propriedade, ele vai fazer isso em o e, novamente, vai deixar o encadeamento de protótipos intacto.
