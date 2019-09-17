@@ -26,3 +26,8 @@ q.x + q.y // => 3: x e y são herdados de o e p
 //consultar propriedades, mas não ao configurá-las, é um recurso importante de JavaScript, pois isso
 //nos permite anular propriedades herdadas seletivamente:
 
+var unitcircle = { r:1 }; // Um objeto para herdar
+var c = inherit(unitcircle); // c herda a propriedade r
+c.x = 1; c.y = 1; // c define duas propriedades próprias
+c.r = 2; // c anula sua propriedade herdada
+unitcircle.r; // => 1: o objeto protótipo não é afetado
