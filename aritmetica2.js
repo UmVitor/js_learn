@@ -1,4 +1,4 @@
-else if
+//else if
 //A instrução if/else avalia uma expressão e executa um código ou outro, dependendo do resultado.
 //Mas e quando é necessário executar um entre vários códigos? Um modo de fazer isso é com a instru-
 //ção else if . else if não é realmente uma instrução JavaScript, mas apenas um idioma de programa-
